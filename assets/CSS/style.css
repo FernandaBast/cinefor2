@@ -1,0 +1,511 @@
+body {
+    background-image: url(https://media.discordapp.net/attachments/809835546037452800/1029161191148355604/unknown.png);
+    background-size: cover;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    color: white;
+}
+
+.login-top {
+    width: 100vw;
+    height: 70px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.438);
+}
+
+.login-top img {
+    width: 150px;
+}
+
+nav ul {
+    height: 100%;
+    display: flex;
+    /*padding-top: 25px;*/
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+nav ul li {
+    display: flex;
+    margin-left: 100px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.first-container {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.second-container {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+
+
+nav ul li:hover {
+    transition: all 300ms ease-in-out;
+    border-bottom: 1px solid white;
+
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.form-login {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px auto;
+    flex-direction: column;
+}
+
+.form-login button {
+    width: 100%;
+    height: 50px;
+    border-radius: 0.5em;
+    background-color: #3760a6;
+}
+
+.form-login input[type="text"] {
+    width: 100%;
+    height: 50px;
+    border-radius: 0.5em;
+    background-color: #3760a6;
+}
+
+.lado-lado {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lado-lado input[type="text"] {
+    width: 60%;
+    height: 50px;
+    border-radius: 0.5em;
+    background-color: #3760a6;
+}
+
+.lado-lado a {
+    width: 30%;
+    height: 50px;
+    border-radius: 0.5em;
+    background-color: #3760a6;
+}
+
+.lado-lado button {
+    background-color: #00307c;
+}
+
+/*--------------------TEMA-------------------------*/
+.temas {
+    margin-top: 40px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.temas img {
+    margin-top: -40px;
+    margin-bottom: -160px;
+    position: relative;
+    margin-left: 200px;
+    width: 100%;
+    height: 300px;
+
+}
+
+/* -------------------------------------------------*/
+.container-perfil img {
+    width: 200px;
+    height: 200px;
+}
+
+.esquerda input[type="text"] {
+    width: 28%;
+    height: 50px;
+    border-radius: 0.5em;
+    background-color: #3760a6;
+    text-align: center;
+
+}
+
+.esquerda {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.direita {
+    width: 40vw;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.direita a {
+    width: 150px;
+    height: 50px;
+}
+
+.direita a button.btn-editar {
+    width: 150px;
+    height: 50px;
+    border-radius: 0.5em;
+    background-color: #3760a6;
+    margin-top: 110px;
+    text-align: center;
+}
+
+.direita a button.btn-sair {
+    width: 100px;
+    height: 50px;
+    border-radius: 0.5em;
+    background-color: #3760a6;
+    text-align: center;
+}
+
+.container-lista {
+    border-radius: 8px;
+    background-color: rgba(67, 131, 227, 0.473);
+    height: 50vh;
+}
+
+.btn-primary {
+    max-width: 150px;
+    border-radius: 8px;
+    outline: none;
+    min-height: 40px;
+    border: none;
+    background-color: #00307c;
+}
+
+
+.container-perfil-edt {
+    height: 53vh;
+}
+
+.foto-editar {
+    width: 180px;
+    height: 180px;
+}
+
+.edt-img {
+    width: 32%;
+    background-color: #b3c2db4d;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.opc-perfil {
+    width: 32%;
+    background-color: #b3c2db4d;
+    text-align: center;
+}
+
+.edt-senha {
+    width: 32%;
+    background-color: #b3c2db4d;
+    text-align: center;
+}
+
+.opc-perfil>* {
+    margin-bottom: 15px;
+}
+
+.edt-senha>* {
+    margin-bottom: 15px;
+}
+
+.perfil-edt h1 {
+    margin-top: 5px;
+}
+
+.edt-img button {
+    width: 150px;
+    height: 60px;
+    border-radius: 0.5em;
+    background-color: #3760a6;
+    text-align: center;
+}
+
+.opc-perfil button {
+    width: 80%;
+    height: 45px;
+    background-color: #228f26;
+    text-align: center;
+    border-radius: 0.5em;
+}
+
+.edt-senha button {
+    width: 80%;
+    height: 45px;
+    background-color: #a00303;
+    text-align: center;
+    border-radius: 0.5em;
+}
+
+.perfil-edt input[type="text"] {
+    width: 80%;
+    height: 55px;
+    border-radius: 0.5em;
+    background-color: #3760a6;
+    text-align: center;
+
+}
+
+
+/* ----------FILMES------------- */
+
+.row__poster {
+    width: 100%;
+    object-fit: contain;
+    max-height: 400px;
+    margin-right: 10px;
+    transition: transform 450ms;
+}
+
+.row__posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 30px;
+}
+
+/* .row__posters .DeVoltaAoBaile{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 30px;
+} */
+
+.DeVoltaAoBaile img {
+    width: 276px;
+    height: 414px;
+}
+
+
+.row__poster:hover {
+    transform: scale(1.02);
+}
+
+.row__posters::-webkit-scrollbar {
+    display: none;
+}
+
+.row__posterLarge {
+    max-height: 250px;
+}
+
+.row__posterLarge:hover {
+    transform: scale(1.09);
+
+}
+
+.row {
+    color: white;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+/* -----------------BANNER------------------ */
+
+.banner {
+    background-image: url(/assets/images/banner/Frame\ \(1\).png);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    object-fit: contain;
+    height: 460px;
+}
+
+.banner_contents {
+    margin-left: 30px;
+    padding-top: 200px;
+    height: 190px;
+}
+
+.banner_title {
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+}
+
+.banner_description {
+    width: 45rem;
+    line-height: 1.3;
+    padding-top: 1rem;
+    font-size: 1.1rem;
+    max-width: 600px;
+    height: 180px;
+}
+
+.banner_button {
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgba(0, 6, 118, 0.4);
+
+
+}
+
+.banner_button:hover {
+    color: black;
+    background-color: white;
+    transition: all 0.2s;
+}
+
+
+.banner--fadeBottom {
+    margin-top: 145px;
+    height: 7.4rem;
+    background-image: linear-gradient(180deg, transparent, rgba(37, 37, 37, 0.30), #080b7c);
+
+}
+
+/*---------PESQUISA------------*/
+.lupa-txt {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    line-height: 40px;
+
+}
+
+.lupa-lupa {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+
+/* -----------------INFO FILMES------------------ */
+
+.banner-info {
+    background-image: url(/assets/images/infoFilmes/Framenovo.png);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    object-fit: contain;
+    height: 590px;
+}
+
+.banner-info_contents {
+    margin-left: 300px;
+    padding-top: 200px;
+    height: 190px;
+}
+
+.banner-info .banner_imagem img {
+    
+    height: 298px;
+    width: 200px;
+    
+
+}
+
+.banner-info_title {
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+}
+
+.banner-info_description {
+    width: 45rem;
+    line-height: 1.3;
+    padding-top: 1rem;
+    font-size: 1.1rem;
+    max-width: 600px;
+    height: 180px;
+}
+
+.banner-info_button {
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgba(0, 6, 118, 0.4);
+
+
+}
+
+.banner-info_button:hover {
+    color: black;
+    background-color: white;
+    transition: all 0.2s;
+}
+
+.banner_imagem img{
+    height: 100px;
+    width: 100px;
+    margin-left: 30px;
+    
+
+}
+
+/* -----------PLAY----------------------*/
+
+.banner_imagem-play {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    line-height: 40px;
+
+}
+
+.filmes img {
+    width: 320px;
+    height: 414px;
+}
+
+.rounded-2:hover {
+    transform: scale(1.08);
+}
